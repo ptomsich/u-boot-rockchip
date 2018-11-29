@@ -9,7 +9,4 @@ config SYS_VENDOR
 config SYS_CONFIG_NAME
 	default "axs10x"
 
-config CMD_NAND
-        select BOUNCE_BUFFER if TARGET_AXS101 || TARGET_AXS103
-
 endif
